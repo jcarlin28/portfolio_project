@@ -1,9 +1,31 @@
-h1 {
-  font-family: "LinuxBiolinumORegular";
-  font-weight: normal;
-  font-style: normal;
+:root {
+  --header-text: "LinuxBiolinumORegular";
+  --default-text: "Lato", sans-serif;
 }
 
-p {
-  font-family: "Lato", sans-serif;
+body {
+  background-color: #eeeeee;
+}
+h1 {
+  background-color: #eeeeee;
+  text-align: center;
+  font-family: var(--header-text);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: var(--default-text);
+  font-size: 22px;
+  text-align: center;
+}
+
+.coded {
+  font-family: var(--header-text);
+}
+
+#main_contact {
+  font-family: var(--default-text);
+  text-align: left;
 }
