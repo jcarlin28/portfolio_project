@@ -21,11 +21,34 @@ h2 {
   text-align: center;
 }
 
+li {
+  padding: 10px;
+}
+
 .coded {
   font-family: var(--header-text);
+}
+
+#headshot {
+  border-radius: 40%;
 }
 
 #main_contact {
   font-family: var(--default-text);
   text-align: left;
+}
+
+#about_me_btn {
+  font-family: var(--default-text);
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
 }
