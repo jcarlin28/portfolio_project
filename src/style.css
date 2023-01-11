@@ -57,6 +57,14 @@ h2 {
   background-color: #91612f;
 }
 
+#about_me_btn:hover {
+  opacity: 50%;
+}
+
+#my_work_btn:hover {
+  opacity: 50%;
+}
+
 #blog_button {
   background-color: #e7e9ec;
   color: black;
