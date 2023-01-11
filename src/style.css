@@ -40,6 +40,10 @@ h2 {
   margin: 25px;
 }
 
+#navbar {
+  font-family: var(--header-text);
+}
+
 #headshot {
   border-radius: 40%;
 }
@@ -69,6 +73,10 @@ h2 {
 
   h2 {
     font-size: 18px;
+  }
+
+  .coded {
+    text-align: center;
   }
 
   #main_contact {
