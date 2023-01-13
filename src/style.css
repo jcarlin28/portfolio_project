@@ -21,6 +21,10 @@ h2 {
   text-align: center;
 }
 
+ul {
+  font-family: var(--default-text);
+}
+
 .btn {
   font-family: var(--default-text);
   font-weight: bold;
@@ -38,6 +42,10 @@ h2 {
 .coded {
   font-family: var(--header-text);
   margin: 25px;
+}
+
+.copy {
+  font-family: var(--default-text);
 }
 
 #navbar {
