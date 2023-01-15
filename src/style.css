@@ -129,4 +129,9 @@ li {
   #main_contact {
     text-align: center;
   }
+
+  #role_text {
+    font-family: var(--default-text);
+    font-size: 18px;
+  }
 }
