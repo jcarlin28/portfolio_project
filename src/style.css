@@ -21,8 +21,20 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: var(--header-text);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
 ul {
   font-family: var(--default-text);
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .btn {
@@ -46,6 +58,14 @@ ul {
 
 .copy {
   font-family: var(--default-text);
+}
+
+.my_work_nav {
+  font-family: var(--default-text);
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar {
@@ -80,6 +100,17 @@ ul {
 
 #contact_button {
   color: black;
+}
+
+#role_header {
+  font-family: var(--header-text);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#role_text {
+  font-family: var(--default-text);
+  font-size: 16px;
 }
 
 @media (max-width: 900px) {
