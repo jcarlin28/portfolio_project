@@ -141,4 +141,8 @@ li {
     font-family: var(--default-text);
     font-size: 18px;
   }
+
+  #contact_pg_text {
+    font-size: 20px;
+  }
 }
